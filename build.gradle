@@ -20,7 +20,7 @@ dependencies {
 	testCompile 'org.openqa.selenium.server:selenium-server:1.0-20081010.060147'
 	testCompile 'org.seleniumhq.selenium:selenium-chrome-driver:3.0.1'
 	testCompile group: 'org.seleniumhq.selenium', name: 'selenium-ie-driver', version: '3.0.1'
-	testCompile group: 'org.apache.tomcat', name: 'tomcat-juli', version: '9.0.0.M15'
+	compile group: 'org.apache.tomcat', name: 'tomcat-juli', version: '9.0.0.M15'
 	
 	
 }
