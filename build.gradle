@@ -1,0 +1,29 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart',
+                   'Implementation-Version': version
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	testCompile 'org.testng:testng:6.10'
+	testCompile 'junit:junit:4.12'
+	testCompile 'org.openqa.selenium.server:selenium-server:1.0-20081010.060147'
+	testCompile 'org.seleniumhq.selenium:selenium-chrome-driver:3.0.1'
+	testCompile group: 'org.seleniumhq.selenium', name: 'selenium-ie-driver', version: '3.0.1'
+	
+	
+}
+
+test {
+    useTestNG()
+}

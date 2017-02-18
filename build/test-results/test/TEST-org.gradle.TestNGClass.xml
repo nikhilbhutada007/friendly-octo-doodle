@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gradle.TestNGClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-02-18T14:54:20" hostname="Nikhil" time="4.631">
+  <properties/>
+  <testcase name="calculatepercent" classname="org.gradle.TestNGClass" time="4.631"/>
+  <system-out><![CDATA[Test Passed!
+]]></system-out>
+  <system-err><![CDATA[Started InternetExplorerDriver server (64-bit)
+3.0.0.0
+Listening on port 3650
+Only local connections are allowed
+Feb 18, 2017 8:24:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Feb 18, 2017 8:24:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
